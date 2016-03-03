@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
+<application application-name="CoDeSys 2.3">
+    <project project-name="EA-Configuration">
+        <node node-name="Knoten" node-pos="0">
+            <module subbus-id="0" subbus-name="0x0371" article-no="0750-0881" module-name="K_Bus(TargetId=11986, ApplicationId=5)" target-id="11986" />
+            <module subbus-id="1" subbus-name="0x9001" article-no="0750-1405" module-name="Type_1_16_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Digital input" />
+                <channel channel-no="2" channel-name="Ch_2 Digital input" />
+                <channel channel-no="3" channel-name="Ch_3 Digital input" />
+                <channel channel-no="4" channel-name="Ch_4 Digital input" />
+                <channel channel-no="5" channel-name="Ch_5 Digital input" />
+                <channel channel-no="6" channel-name="Ch_6 Digital input" />
+                <channel channel-no="7" channel-name="Ch_7 Digital input" />
+                <channel channel-no="8" channel-name="Ch_8 Digital input" />
+                <channel channel-no="9" channel-name="Ch_9 Digital input" />
+                <channel channel-no="10" channel-name="Ch_10 Digital input" />
+                <channel channel-no="11" channel-name="Ch_11 Digital input" />
+                <channel channel-no="12" channel-name="Ch_12 Digital input" />
+                <channel channel-no="13" channel-name="Ch_13 Digital input" />
+                <channel channel-no="14" channel-name="Ch_14 Digital input" />
+                <channel channel-no="15" channel-name="Ch_15 Digital input" />
+                <channel channel-no="16" channel-name="Ch_16 Digital input" />
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_IN_Ch1" visible-name="VGV1_Opn" comment="Ch_1 Digital input" />
+                <var name="_IN_Ch2" visible-name="VGV1_Cls" comment="Ch_2 Digital input" />
+                <var name="_IN_Ch3" visible-name="VFV1_Opn" comment="Ch_3 Digital input" />
+                <var name="_IN_Ch4" visible-name="VFV1_Cls" comment="Ch_4 Digital input" />
+                <var name="_IN_Ch5" visible-name="VRV1_Opn" comment="Ch_5 Digital input" />
+                <var name="_IN_Ch6" visible-name="VRV1_Cls" comment="Ch_6 Digital input" />
+                <var name="_IN_Ch7" visible-name="VVV1_Cls" comment="Ch_7 Digital input" />
+                <var name="_IN_Ch8" visible-name="VRV2_Opn" comment="Ch_8 Digital input" />
+                <var name="_IN_Ch9" visible-name="VRV2_Cls" comment="Ch_9 Digital input" />
+                <var name="_IN_Ch10" visible-name="VRV3_Opn" comment="Ch_10 Digital input" />
+                <var name="_IN_Ch11" visible-name="VRV3_Cls" comment="Ch_11 Digital input" />
+                <var name="_IN_Ch12" visible-name="VFV2_Opn" comment="Ch_12 Digital input" />
+                <var name="_IN_Ch13" visible-name="VFV2_Cls" comment="Ch_13 Digital input" />
+                <var name="_IN_Ch14" visible-name="PC1_Opn" comment="Ch_14 Digital input" />
+                <var name="_IN_Ch15" visible-name="PC1_Cls" comment="Ch_15 Digital input" />
+                <var name="_IN_Ch16" visible-name="" comment="Ch_16 Digital input" />
+            </module>
+            <module subbus-id="2" subbus-name="0x9001" article-no="0750-1405" module-name="Type_1_16_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Digital input" />
+                <channel channel-no="2" channel-name="Ch_2 Digital input" />
+                <channel channel-no="3" channel-name="Ch_3 Digital input" />
+                <channel channel-no="4" channel-name="Ch_4 Digital input" />
+                <channel channel-no="5" channel-name="Ch_5 Digital input" />
+                <channel channel-no="6" channel-name="Ch_6 Digital input" />
+                <channel channel-no="7" channel-name="Ch_7 Digital input" />
+                <channel channel-no="8" channel-name="Ch_8 Digital input" />
+                <channel channel-no="9" channel-name="Ch_9 Digital input" />
+                <channel channel-no="10" channel-name="Ch_10 Digital input" />
+                <channel channel-no="11" channel-name="Ch_11 Digital input" />
+                <channel channel-no="12" channel-name="Ch_12 Digital input" />
+                <channel channel-no="13" channel-name="Ch_13 Digital input" />
+                <channel channel-no="14" channel-name="Ch_14 Digital input" />
+                <channel channel-no="15" channel-name="Ch_15 Digital input" />
+                <channel channel-no="16" channel-name="Ch_16 Digital input" />
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_IN_Ch1" visible-name="VV16_Opn" comment="Ch_1 Digital input" />
+                <var name="_IN_Ch2" visible-name="VV16_Cls" comment="Ch_2 Digital input" />
+                <var name="_IN_Ch3" visible-name="VV17_Opn" comment="Ch_3 Digital input" />
+                <var name="_IN_Ch4" visible-name="VV17_Cls" comment="Ch_4 Digital input" />
+                <var name="_IN_Ch5" visible-name="VV19_Opn" comment="Ch_5 Digital input" />
+                <var name="_IN_Ch6" visible-name="VV19_Cls" comment="Ch_6 Digital input" />
+                <var name="_IN_Ch7" visible-name="VV20_Opn" comment="Ch_7 Digital input" />
+                <var name="_IN_Ch8" visible-name="VV20_Cls" comment="Ch_8 Digital input" />
+                <var name="_IN_Ch9" visible-name="VFV3_Opn" comment="Ch_9 Digital input" />
+                <var name="_IN_Ch10" visible-name="VFV3_Cls" comment="Ch_10 Digital input" />
+                <var name="_IN_Ch11" visible-name="VRV4_Opn" comment="Ch_11 Digital input" />
+                <var name="_IN_Ch12" visible-name="VRV4_Cls" comment="Ch_12 Digital input" />
+                <var name="_IN_Ch13" visible-name="Cover_Close" comment="Ch_13 Digital input" />
+                <var name="_IN_Ch14" visible-name="Cover_CanDown" comment="Ch_14 Digital input" />
+                <var name="_IN_Ch15" visible-name="Interlocks" comment="Ch_15 Digital input" />
+                <var name="_IN_Ch16" visible-name="InterlockKeyy" comment="Ch_16 Digital input" />
+            </module>
+            <module subbus-id="3" subbus-name="0x9001" article-no="0750-1405" module-name="Type_1_16_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Digital input" />
+                <channel channel-no="2" channel-name="Ch_2 Digital input" />
+                <channel channel-no="3" channel-name="Ch_3 Digital input" />
+                <channel channel-no="4" channel-name="Ch_4 Digital input" />
+                <channel channel-no="5" channel-name="Ch_5 Digital input" />
+                <channel channel-no="6" channel-name="Ch_6 Digital input" />
+                <channel channel-no="7" channel-name="Ch_7 Digital input" />
+                <channel channel-no="8" channel-name="Ch_8 Digital input" />
+                <channel channel-no="9" channel-name="Ch_9 Digital input" />
+                <channel channel-no="10" channel-name="Ch_10 Digital input" />
+                <channel channel-no="11" channel-name="Ch_11 Digital input" />
+                <channel channel-no="12" channel-name="Ch_12 Digital input" />
+                <channel channel-no="13" channel-name="Ch_13 Digital input" />
+                <channel channel-no="14" channel-name="Ch_14 Digital input" />
+                <channel channel-no="15" channel-name="Ch_15 Digital input" />
+                <channel channel-no="16" channel-name="Ch_16 Digital input" />
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_IN_Ch1" visible-name="Fuse1" comment="Ch_1 Digital input" />
+                <var name="_IN_Ch2" visible-name="Fuse2" comment="Ch_2 Digital input" />
+                <var name="_IN_Ch3" visible-name="Fuse3" comment="Ch_3 Digital input" />
+                <var name="_IN_Ch4" visible-name="Fuse4" comment="Ch_4 Digital input" />
+                <var name="_IN_Ch5" visible-name="Fuse5" comment="Ch_5 Digital input" />
+                <var name="_IN_Ch6" visible-name="Fuse6" comment="Ch_6 Digital input" />
+                <var name="_IN_Ch7" visible-name="Fuse7" comment="Ch_7 Digital input" />
+                <var name="_IN_Ch8" visible-name="Fuse8" comment="Ch_8 Digital input" />
+                <var name="_IN_Ch9" visible-name="Fuse9" comment="Ch_9 Digital input" />
+                <var name="_IN_Ch10" visible-name="Air_Press" comment="Ch_10 Digital input" />
+                <var name="_IN_Ch11" visible-name="Gas1_Press" comment="Ch_11 Digital input" />
+                <var name="_IN_Ch12" visible-name="Gas2_Press" comment="Ch_12 Digital input" />
+                <var name="_IN_Ch13" visible-name="" comment="Ch_13 Digital input" />
+                <var name="_IN_Ch14" visible-name="" comment="Ch_14 Digital input" />
+                <var name="_IN_Ch15" visible-name="SwitchOff" comment="Ch_15 Digital input" />
+                <var name="_IN_Ch16" visible-name="PowerOk" comment="Ch_16 Digital input" />
+            </module>
+            <module subbus-id="4" subbus-name="0x9002" article-no="0750-1504" module-name="Type_10_16_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Digital output" />
+                <channel channel-no="2" channel-name="Ch_2 Digital output" />
+                <channel channel-no="3" channel-name="Ch_3 Digital output" />
+                <channel channel-no="4" channel-name="Ch_4 Digital output" />
+                <channel channel-no="5" channel-name="Ch_5 Digital output" />
+                <channel channel-no="6" channel-name="Ch_6 Digital output" />
+                <channel channel-no="7" channel-name="Ch_7 Digital output" />
+                <channel channel-no="8" channel-name="Ch_8 Digital output" />
+                <channel channel-no="9" channel-name="Ch_9 Digital output" />
+                <channel channel-no="10" channel-name="Ch_10 Digital output" />
+                <channel channel-no="11" channel-name="Ch_11 Digital output" />
+                <channel channel-no="12" channel-name="Ch_12 Digital output" />
+                <channel channel-no="13" channel-name="Ch_13 Digital output" />
+                <channel channel-no="14" channel-name="Ch_14 Digital output" />
+                <channel channel-no="15" channel-name="Ch_15 Digital output" />
+                <channel channel-no="16" channel-name="Ch_16 Digital output" />
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_OUT_Ch1" visible-name="PD1_1" comment="Ch_1 Digital output" />
+                <var name="_OUT_Ch2" visible-name="PD1_2" comment="Ch_2 Digital output" />
+                <var name="_OUT_Ch3" visible-name="PD2_1" comment="Ch_3 Digital output" />
+                <var name="_OUT_Ch4" visible-name="PD2_2" comment="Ch_4 Digital output" />
+                <var name="_OUT_Ch5" visible-name="PD3_1" comment="Ch_5 Digital output" />
+                <var name="_OUT_Ch6" visible-name="PD3_2" comment="Ch_6 Digital output" />
+                <var name="_OUT_Ch7" visible-name="PD4_1" comment="Ch_7 Digital output" />
+                <var name="_OUT_Ch8" visible-name="PD4_2" comment="Ch_8 Digital output" />
+                <var name="_OUT_Ch9" visible-name="PD5_1" comment="Ch_9 Digital output" />
+                <var name="_OUT_Ch10" visible-name="PD5_2" comment="Ch_10 Digital output" />
+                <var name="_OUT_Ch11" visible-name="PD6_1" comment="Ch_11 Digital output" />
+                <var name="_OUT_Ch12" visible-name="PD6_2" comment="Ch_12 Digital output" />
+                <var name="_OUT_Ch13" visible-name="PD7_1" comment="Ch_13 Digital output" />
+                <var name="_OUT_Ch14" visible-name="PD7_2" comment="Ch_14 Digital output" />
+                <var name="_OUT_Ch15" visible-name="PD8_1" comment="Ch_15 Digital output" />
+                <var name="_OUT_Ch16" visible-name="PD8_2" comment="Ch_16 Digital output" />
+            </module>
+            <module subbus-id="5" subbus-name="0x9002" article-no="0750-1504" module-name="Type_10_16_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Digital output" />
+                <channel channel-no="2" channel-name="Ch_2 Digital output" />
+                <channel channel-no="3" channel-name="Ch_3 Digital output" />
+                <channel channel-no="4" channel-name="Ch_4 Digital output" />
+                <channel channel-no="5" channel-name="Ch_5 Digital output" />
+                <channel channel-no="6" channel-name="Ch_6 Digital output" />
+                <channel channel-no="7" channel-name="Ch_7 Digital output" />
+                <channel channel-no="8" channel-name="Ch_8 Digital output" />
+                <channel channel-no="9" channel-name="Ch_9 Digital output" />
+                <channel channel-no="10" channel-name="Ch_10 Digital output" />
+                <channel channel-no="11" channel-name="Ch_11 Digital output" />
+                <channel channel-no="12" channel-name="Ch_12 Digital output" />
+                <channel channel-no="13" channel-name="Ch_13 Digital output" />
+                <channel channel-no="14" channel-name="Ch_14 Digital output" />
+                <channel channel-no="15" channel-name="Ch_15 Digital output" />
+                <channel channel-no="16" channel-name="Ch_16 Digital output" />
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_OUT_Ch1" visible-name="PD9_1" comment="Ch_1 Digital output" />
+                <var name="_OUT_Ch2" visible-name="PD9_2" comment="Ch_2 Digital output" />
+                <var name="_OUT_Ch3" visible-name="PD10_1" comment="Ch_3 Digital output" />
+                <var name="_OUT_Ch4" visible-name="PD10_2" comment="Ch_4 Digital output" />
+                <var name="_OUT_Ch5" visible-name="PD11_1" comment="Ch_5 Digital output" />
+                <var name="_OUT_Ch6" visible-name="PD11_2" comment="Ch_6 Digital output" />
+                <var name="_OUT_Ch7" visible-name="PD12_1" comment="Ch_7 Digital output" />
+                <var name="_OUT_Ch8" visible-name="PD12_2" comment="Ch_8 Digital output" />
+                <var name="_OUT_Ch9" visible-name="PD13_1" comment="Ch_9 Digital output" />
+                <var name="_OUT_Ch10" visible-name="PD13_2" comment="Ch_10 Digital output" />
+                <var name="_OUT_Ch11" visible-name="PD14_1" comment="Ch_11 Digital output" />
+                <var name="_OUT_Ch12" visible-name="PD14_2" comment="Ch_12 Digital output" />
+                <var name="_OUT_Ch13" visible-name="PD15_1" comment="Ch_13 Digital output" />
+                <var name="_OUT_Ch14" visible-name="PD16_1" comment="Ch_14 Digital output" />
+                <var name="_OUT_Ch15" visible-name="PD16_2" comment="Ch_15 Digital output" />
+                <var name="_OUT_Ch16" visible-name="" comment="Ch_16 Digital output" />
+            </module>
+            <module subbus-id="6" subbus-name="0x8801" article-no="0750-0430" module-name="Type_1_8_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Digital input" />
+                <channel channel-no="2" channel-name="Ch_2 Digital input" />
+                <channel channel-no="3" channel-name="Ch_3 Digital input" />
+                <channel channel-no="4" channel-name="Ch_4 Digital input" />
+                <channel channel-no="5" channel-name="Ch_5 Digital input" />
+                <channel channel-no="6" channel-name="Ch_6 Digital input" />
+                <channel channel-no="7" channel-name="Ch_7 Digital input" />
+                <channel channel-no="8" channel-name="Ch_8 Digital input" />
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_IN_Ch1" visible-name="WFM1" comment="Ch_1 Digital input" />
+                <var name="_IN_Ch2" visible-name="WFM2" comment="Ch_2 Digital input" />
+                <var name="_IN_Ch3" visible-name="WFM3" comment="Ch_3 Digital input" />
+                <var name="_IN_Ch4" visible-name="WFM4" comment="Ch_4 Digital input" />
+                <var name="_IN_Ch5" visible-name="" comment="Ch_5 Digital input" />
+                <var name="_IN_Ch6" visible-name="" comment="Ch_6 Digital input" />
+                <var name="_IN_Ch7" visible-name="" comment="Ch_7 Digital input" />
+                <var name="_IN_Ch8" visible-name="" comment="Ch_8 Digital input" />
+            </module>
+            <module subbus-id="7" subbus-name="0x9002" article-no="0750-1504" module-name="Type_10_16_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Digital output" />
+                <channel channel-no="2" channel-name="Ch_2 Digital output" />
+                <channel channel-no="3" channel-name="Ch_3 Digital output" />
+                <channel channel-no="4" channel-name="Ch_4 Digital output" />
+                <channel channel-no="5" channel-name="Ch_5 Digital output" />
+                <channel channel-no="6" channel-name="Ch_6 Digital output" />
+                <channel channel-no="7" channel-name="Ch_7 Digital output" />
+                <channel channel-no="8" channel-name="Ch_8 Digital output" />
+                <channel channel-no="9" channel-name="Ch_9 Digital output" />
+                <channel channel-no="10" channel-name="Ch_10 Digital output" />
+                <channel channel-no="11" channel-name="Ch_11 Digital output" />
+                <channel channel-no="12" channel-name="Ch_12 Digital output" />
+                <channel channel-no="13" channel-name="Ch_13 Digital output" />
+                <channel channel-no="14" channel-name="Ch_14 Digital output" />
+                <channel channel-no="15" channel-name="Ch_15 Digital output" />
+                <channel channel-no="16" channel-name="Ch_16 Digital output" />
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_OUT_Ch1" visible-name="WV1" comment="Ch_1 Digital output" />
+                <var name="_OUT_Ch2" visible-name="WV2" comment="Ch_2 Digital output" />
+                <var name="_OUT_Ch3" visible-name="WV3" comment="Ch_3 Digital output" />
+                <var name="_OUT_Ch4" visible-name="WV4" comment="Ch_4 Digital output" />
+                <var name="_OUT_Ch5" visible-name="" comment="Ch_5 Digital output" />
+                <var name="_OUT_Ch6" visible-name="" comment="Ch_6 Digital output" />
+                <var name="_OUT_Ch7" visible-name="" comment="Ch_7 Digital output" />
+                <var name="_OUT_Ch8" visible-name="" comment="Ch_8 Digital output" />
+                <var name="_OUT_Ch9" visible-name="GV1" comment="Ch_9 Digital output" />
+                <var name="_OUT_Ch10" visible-name="GV2" comment="Ch_10 Digital output" />
+                <var name="_OUT_Ch11" visible-name="GV3" comment="Ch_11 Digital output" />
+                <var name="_OUT_Ch12" visible-name="GV5" comment="Ch_12 Digital output" />
+                <var name="_OUT_Ch13" visible-name="" comment="Ch_13 Digital output" />
+                <var name="_OUT_Ch14" visible-name="HTR4" comment="Ch_14 Digital output" />
+                <var name="_OUT_Ch15" visible-name="HTR5" comment="Ch_15 Digital output" />
+                <var name="_OUT_Ch16" visible-name="HTR6" comment="Ch_16 Digital output" />
+            </module>
+            <module subbus-id="8" subbus-name="0x028C" article-no="0750-0652#08" module-name="Type_40_1_Channels">
+                <channel channel-no="1">
+                    <register R11="0x0180" R12="0x4040" R13="0x0000" />
+                </channel>
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_FIRST_BYTE_IN" visible-name="" comment="First Byte of 8" />
+                <var name="_FIRST_BYTE_OUT" visible-name="" comment="First Byte of 8" />
+            </module>
+            <module subbus-id="9" subbus-name="0x028C" article-no="0750-0652#08" module-name="Type_40_1_Channels">
+                <channel channel-no="1">
+                    <register R11="0x0180" R12="0x4040" R13="0x0000" />
+                </channel>
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_FIRST_BYTE_IN" visible-name="" comment="First Byte of 8" />
+                <var name="_FIRST_BYTE_OUT" visible-name="" comment="First Byte of 8" />
+            </module>
+            <module subbus-id="10" subbus-name="0x028C" article-no="0750-0652#08" module-name="Type_40_1_Channels">
+                <channel channel-no="1">
+                    <register R11="0x0180" R12="0x4040" R13="0x0000" />
+                </channel>
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_FIRST_BYTE_IN" visible-name="" comment="First Byte of 8" />
+                <var name="_FIRST_BYTE_OUT" visible-name="" comment="First Byte of 8" />
+            </module>
+            <module subbus-id="11" subbus-name="0x01D4" article-no="0750-0468" module-name="Type_8_4_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Input word">
+                    <register R11="0x0410" R12="0x0010" R13="0x0000" />
+                </channel>
+                <channel channel-no="2" channel-name="Ch_2 Input word">
+                    <register R11="0x0410" R12="0x0010" R13="0x0000" />
+                </channel>
+                <channel channel-no="3" channel-name="Ch_3 Input word">
+                    <register R11="0x0410" R12="0x0010" R13="0x0000" />
+                </channel>
+                <channel channel-no="4" channel-name="Ch_4 Input word">
+                    <register R11="0x0410" R12="0x0010" R13="0x0000" />
+                </channel>
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_IW_Ch1" visible-name="VLG1" comment="Ch_1 Input word" />
+                <var name="_IW_Ch2" visible-name="VLG2" comment="Ch_2 Input word" />
+                <var name="_IW_Ch3" visible-name="VLG3" comment="Ch_3 Input word" />
+                <var name="_IW_Ch4" visible-name="VFG1" comment="Ch_4 Input word" />
+            </module>
+            <module subbus-id="12" subbus-name="0x01D4" article-no="0750-0468" module-name="Type_8_4_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Input word">
+                    <register R11="0x0410" R12="0x0010" R13="0x0000" />
+                </channel>
+                <channel channel-no="2" channel-name="Ch_2 Input word">
+                    <register R11="0x0410" R12="0x0010" R13="0x0000" />
+                </channel>
+                <channel channel-no="3" channel-name="Ch_3 Input word">
+                    <register R11="0x0410" R12="0x0010" R13="0x0000" />
+                </channel>
+                <channel channel-no="4" channel-name="Ch_4 Input word">
+                    <register R11="0x0410" R12="0x0010" R13="0x0000" />
+                </channel>
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_IW_Ch1" visible-name="VFG2" comment="Ch_1 Input word" />
+                <var name="_IW_Ch2" visible-name="VFG3" comment="Ch_2 Input word" />
+                <var name="_IW_Ch3" visible-name="VCG1" comment="Ch_3 Input word" />
+                <var name="_IW_Ch4" visible-name="VCG2" comment="Ch_4 Input word" />
+            </module>
+            <module subbus-id="13" subbus-name="0x01D4" article-no="0750-0468" module-name="Type_8_4_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Input word">
+                    <register R11="0x0410" R12="0x0010" R13="0x0000" />
+                </channel>
+                <channel channel-no="2" channel-name="Ch_2 Input word">
+                    <register R11="0x0410" R12="0x0010" R13="0x0000" />
+                </channel>
+                <channel channel-no="3" channel-name="Ch_3 Input word">
+                    <register R11="0x0410" R12="0x0010" R13="0x0000" />
+                </channel>
+                <channel channel-no="4" channel-name="Ch_4 Input word">
+                    <register R11="0x0410" R12="0x0010" R13="0x0000" />
+                </channel>
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_IW_Ch1" visible-name="GMFC1" comment="Ch_1 Input word" />
+                <var name="_IW_Ch2" visible-name="Water_Pressure" comment="Ch_2 Input word" />
+                <var name="_IW_Ch3" visible-name="" comment="Ch_3 Input word" />
+                <var name="_IW_Ch4" visible-name="" comment="Ch_4 Input word" />
+            </module>
+            <module subbus-id="14" subbus-name="0x022F" article-no="0750-0559" module-name="Type_14_4_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Analog output">
+                    <register R11="0x0410" R12="0x1000" R13="0x0000" />
+                </channel>
+                <channel channel-no="2" channel-name="Ch_2 Analog output">
+                    <register R11="0x0410" R12="0x1000" R13="0x0000" />
+                </channel>
+                <channel channel-no="3" channel-name="Ch_3 Analog output">
+                    <register R11="0x0410" R12="0x1000" R13="0x0000" />
+                </channel>
+                <channel channel-no="4" channel-name="Ch_4 Analog output">
+                    <register R11="0x0410" R12="0x1000" R13="0x0000" />
+                </channel>
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_QW_Ch1" visible-name="GMFC1_Set" comment="Ch_1 Analog output" />
+                <var name="_QW_Ch2" visible-name="PWR1_Set" comment="Ch_2 Analog output" />
+                <var name="_QW_Ch3" visible-name="PWR2_Set" comment="Ch_3 Analog output" />
+                <var name="_QW_Ch4" visible-name="PWR3_Set" comment="Ch_4 Analog output" />
+            </module>
+            <module subbus-id="15" subbus-name="0x01D5" article-no="0750-0469/0003-0000" module-name="Type_44_2_Channels">
+                <channel channel-no="1" channel-name="Ch_1 signed Input value">
+                    <register R11="0x0210" R12="0x0010" R13="0x0000" />
+                </channel>
+                <channel channel-no="2" channel-name="Ch_2 signed Input value">
+                    <register R11="0x0210" R12="0x0010" R13="0x0000" />
+                </channel>
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_IINT_Ch1" visible-name="Water_Temp" comment="Ch_1 signed Input value" />
+                <var name="_IINT_Ch2" visible-name="0750-0601" comment="Ch_2 signed Input value" />
+            </module>
+            <module subbus-id="16" subbus-name="0x8802" article-no="0750-0530" module-name="Type_10_8_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Digital output" />
+                <channel channel-no="2" channel-name="Ch_2 Digital output" />
+                <channel channel-no="3" channel-name="Ch_3 Digital output" />
+                <channel channel-no="4" channel-name="Ch_4 Digital output" />
+                <channel channel-no="5" channel-name="Ch_5 Digital output" />
+                <channel channel-no="6" channel-name="Ch_6 Digital output" />
+                <channel channel-no="7" channel-name="Ch_7 Digital output" />
+                <channel channel-no="8" channel-name="Ch_8 Digital output" />
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_OUT_Ch1" visible-name="Green1" comment="Ch_1 Digital output" />
+                <var name="_OUT_Ch2" visible-name="Orange1" comment="Ch_2 Digital output" />
+                <var name="_OUT_Ch3" visible-name="Red1" comment="Ch_3 Digital output" />
+                <var name="_OUT_Ch4" visible-name="Zummer1" comment="Ch_4 Digital output" />
+                <var name="_OUT_Ch5" visible-name="" comment="Ch_5 Digital output" />
+                <var name="_OUT_Ch6" visible-name="" comment="Ch_6 Digital output" />
+                <var name="_OUT_Ch7" visible-name="RGA_Swtich" comment="Ch_7 Digital output" />
+                <var name="_OUT_Ch8" visible-name="ShutDown" comment="Ch_8 Digital output" />
+            </module>
+            <module subbus-id="17" subbus-name="0x8202" article-no="0750-0513" module-name="Type_10_2_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Digital output" />
+                <channel channel-no="2" channel-name="Ch_2 Digital output" />
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_OUT_Ch1" visible-name="MP1_On" comment="Ch_1 Digital output" />
+                <var name="_OUT_Ch2" visible-name="MP2_On" comment="Ch_2 Digital output" />
+            </module>
+            <module subbus-id="18" subbus-name="0x8202" article-no="0750-0513" module-name="Type_10_2_Channels">
+                <channel channel-no="1" channel-name="Ch_1 Digital output" />
+                <channel channel-no="2" channel-name="Ch_2 Digital output" />
+                <plc_params id="2010100000" value-text="PLC" />
+                <plc_params id="2010100001" value-text="plugged" />
+                <var name="_OUT_Ch1" visible-name="MP3_On" comment="Ch_1 Digital output" />
+                <var name="_OUT_Ch2" visible-name="PwR_On" comment="Ch_2 Digital output" />
+            </module>
+        </node>
+    </project>
+</application>
