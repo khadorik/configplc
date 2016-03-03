@@ -1,0 +1,10 @@
+0750-0881	0x0371	K_Bus(TargetId=11986, ApplicationId=5)
+0750-1405	0x9001	Type_1_16_Channels
+0750-1504	0x9002	Type_10_16_Channels
+0750-0530	0x8802	Type_10_8_Channels
+0750-0430	0x8801	Type_1_8_Channels
+0750-0468	0x01D4	Type_8_4_Channels
+0750-0559	0x022F	Type_14_4_Channels
+0750-0513	0x8202	Type_10_2_Channels
+0750-0652#08	0x028C	Type_40_1_Channels
+0750-0469/0003-0000	0x01D5	Type_44_2_Channels
